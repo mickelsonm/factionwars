@@ -1,9 +1,9 @@
-package factions
+package models
 
-// Members ... a collection of members
+// Members is a collection of member objects
 type Members []Member
 
-// Member ... is a member
+// Member is a member object
 type Member struct {
 	Name   string `json:"name"`
 	Rank   Rank   `json:"rank,omitempty"`
